@@ -4,11 +4,6 @@ import webbrowser
 from api_code import CLIENT_ID, CLIENT_SECRET, REDIRECT_URI  # Импортируем переменные из предыдущего файла
 
 
-# CLIENT_ID = '132792'
-# CLIENT_SECRET = '01f5b78c7d1c6304d4997ae2852f7f8f901c2456'
-# REDIRECT_URI = 'http://localhost:8080/callback'
-
-
 def get_auth_url(client_id, redirect_uri):
     return (
         f"https://www.strava.com/oauth/authorize"

@@ -11,9 +11,6 @@ def get_access_token_from_file():
     return access_token
 
 
-# ACTIVITIES_URL = 'https://www.strava.com/api/v3/athlete/activities'
-
-
 def get_activities(access_token):
     headers = {
         'Authorization': f'Bearer {access_token}'
